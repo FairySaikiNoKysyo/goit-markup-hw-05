@@ -192,6 +192,7 @@ img {
 }
 
 .link-styles {
+  position: relative;
   color: var(--secondary-txt-cl);
   font-weight: 500;
   font-size: 16px;
@@ -219,6 +220,34 @@ img {
 .adress-styles:hover,
 .adress-styles:focus {
   color: var(--hover-txt-color);
+}
+.studio-wrapper {
+  position: relative;
+}
+.studio-wrapper::after {
+  content: "";
+  position: absolute;
+
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--focused-bg-cl);
+  bottom: 0px;
+  left: 0px;
+}
+.portfolio{
+  position: relative;
+}
+.portfolio::after {
+  content: "";
+  position: absolute;
+
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--focused-bg-cl);
+  bottom: 0px;
+  left: 0px;
 }
 
 /* hero styles */
