@@ -715,6 +715,7 @@ img {
 .modal-btn:focus{
   background-color: var(--focused-bg-cl);
   border: none;
+  color: #fff;
 }
 .modal-sprite-icon{
   fill: currentColor;
