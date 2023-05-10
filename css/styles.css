@@ -458,7 +458,7 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   color: #8e8f99;
-  transition: color var(--animation), border-color var(--animation);
+  transition: border-color var(--animation),color var(--animation);
 }
 
 .sprite-icon {
