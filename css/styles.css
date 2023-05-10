@@ -225,7 +225,7 @@ img {
 .adress-styles:focus {
   color: var(--hover-txt-color);
 }
-.studio-link{
+.studio-link {
   position: relative;
 }
 .studio-link::after {
@@ -458,7 +458,7 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   color: #8e8f99;
-  transition: border-color var(--animation),color var(--animation);
+  transition: border-color var(--animation), color var(--animation);
 }
 
 .sprite-icon {
@@ -598,11 +598,10 @@ img {
 .portfolio-link {
   display: block;
   transition: box-shadow var(--animation);
-
 }
 .portfolio-link:hover .portfolio-back-card,
 .portfolio-link:focus .portfolio-back-card {
-  transform:translateY(0) ;
+  transform: translateY(0);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -673,10 +672,14 @@ img {
   pointer-events: initial;
 
   transform: translate(-50%, -50%);
-  transition: opacity var(--animation);
+  transition: transform var(--animation), opacity var(--animation);
 
-  width: 400px;
-  height: 576px;
+  width: 408px;
+  min-height: 576px;
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 
   background-color: var(--main-bg-cl);
 }
