@@ -225,10 +225,10 @@ img {
 .adress-styles:focus {
   color: var(--hover-txt-color);
 }
-.studio-wrapper {
+.studio-link{
   position: relative;
 }
-.studio-wrapper::after {
+.studio-link::after {
   content: "";
   position: absolute;
 
@@ -236,7 +236,7 @@ img {
   height: 4px;
   border-radius: 2px;
   background-color: var(--focused-bg-cl);
-  bottom: 0px;
+  bottom: -1px;
   left: 0px;
 }
 .portfolio {
