@@ -636,10 +636,8 @@ img {
   background-color: var(--accent-bg-cl);
 
 
-  padding-top: 40px;
-  padding-right: 32px;
-  padding-bottom: 164px;
-  padding-left: 32px;
+  padding: 40px 32px;
+
 }
 
 /* portfolio classes end */
