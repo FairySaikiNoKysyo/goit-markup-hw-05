@@ -239,18 +239,18 @@ img {
   bottom: -1px;
   left: 0px;
 }
-.portfolio {
+.portfolio-link {
   position: relative;
 }
-.portfolio::after {
-  content: "";
+.portfolio-link::after {
+  content: '';
   position: absolute;
 
   width: 100%;
   height: 4px;
   border-radius: 2px;
   background-color: var(--focused-bg-cl);
-  bottom: 0px;
+  bottom: -1px;
   left: 0px;
 }
 
