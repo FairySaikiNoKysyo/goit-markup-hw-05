@@ -227,6 +227,7 @@ img {
 }
 .studio-link {
   position: relative;
+  color: var(--hover-txt-color);
 }
 .studio-link::after {
   content: "";
@@ -241,6 +242,7 @@ img {
 }
 .portfolio {
   position: relative;
+  color: var(--hover-txt-color);
 }
 .portfolio::after {
   content: '';
