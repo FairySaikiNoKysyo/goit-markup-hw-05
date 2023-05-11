@@ -636,7 +636,10 @@ img {
   background-color: var(--accent-bg-cl);
 
 
-  padding: 40px 32px;
+  padding-top: 40px;
+  padding-right: 32px;
+  padding-bottom: 40px;
+  padding-left: 32px;
 
 }
 
